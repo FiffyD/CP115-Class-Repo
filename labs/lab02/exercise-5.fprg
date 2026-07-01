@@ -4,14 +4,14 @@
         <attribute name="name" value="exercise-5"/>
         <attribute name="authors" value="User"/>
         <attribute name="about" value=""/>
-        <attribute name="saved" value="2026-07-01 11:24:39 AM"/>
+        <attribute name="saved" value="2026-07-01 11:27:08 AM"/>
         <attribute name="created" value="VXNlcjtERVNLVE9QLUozOVAxTlQ7MjAyNi0wNy0wMTsxMToxMDoxMSBBTTsyNzIz"/>
-        <attribute name="edited" value="VXNlcjtERVNLVE9QLUozOVAxTlQ7MjAyNi0wNy0wMTsxMToyNDozOSBBTTsyOzI4NDc="/>
+        <attribute name="edited" value="VXNlcjtERVNLVE9QLUozOVAxTlQ7MjAyNi0wNy0wMTsxMToyNzowOCBBTTszOzI4NDc="/>
     </attributes>
     <function name="Main" type="None" variable="">
         <parameters/>
         <body>
-            <declare name="" type="Integer" array="False" size=""/>
+            <declare name="NumberOfPhotos" type="Integer" array="False" size=""/>
             <input variable="NumberOfPhotos"/>
             <assign variable="totalCost" expression="numberofPhotos(0.50)+2"/>
             <output expression="FinalCost" newline="True"/>
