@@ -6,4 +6,4 @@ else:
         totalBill = 100 * 0.3 + kwh - 100 * 0.5
     else:
         totalBill = 100 * 0.3 + 100 * 0.5 + kwh - 200 * 0.75
-print("Total Electricity Bill:RM " + totalBill)
+print(totalBill)
