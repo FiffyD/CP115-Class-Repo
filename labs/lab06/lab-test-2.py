@@ -6,6 +6,6 @@ Input = "\n\n*\t\t*\n**\t   **\n***   ***\n*******\n***   ***\n**\t   **\n*\t\t*
 message = "\n\n\nThis is my\n\tsecond\n\t      assignment"
 mark =2*10
 message2 = "\nI want 2x10 marks, which is" 
-message3 ="full marks"
+message3 ="full marks\n"
 #Display output message and print
 print(Student,Input,message,message2,mark,message3)
