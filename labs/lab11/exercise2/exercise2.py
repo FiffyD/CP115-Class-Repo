@@ -1,22 +1,24 @@
-num_days = int(input())
-danger_threshold = float(input())
+score = int(input())
+total_a = 0
+total_b = 0
+is_a_turn = True
 
-# Initialize variables to keep track of danger days and the total temperature
-danger_days = 0
-total_temperature = 0.0
-
-# Loop through each day to collect temperatures
-for i in range(num_days):
-    current_temp = float(input())
-    total_temperature += current_temp
+while score != -1:
+    if is_a_turn:
+        total_a += score
+    else:
+        total_b += score
     
-    # Check if the temperature exceeds the danger threshold
-    if current_temp > danger_threshold:
-        danger_days += 1
+    is_a_turn = not is_a_turn
+    score = int(input())
 
-# Calculate the average temperature
-average_temp = total_temperature / num_days
+if total_a > total_b:
+    winner = "A"
+elif total_b > total_a:
+    winner = "B"
+else:
+    winner = "Tie"
 
-# Print the final results
-print(danger_days)
-print(f"{average_temp:.1f}")
+print(total_a)
+print(total_b)
+print(winner)

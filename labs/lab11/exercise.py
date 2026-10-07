@@ -1,7 +1,9 @@
-week = 1
-while week <= 4:
-    points = int(input(f"Week {week} points: "))
-    if points >= 100:
-        week += 2   # skip ahead a week
-    else:
-        week += 1
+# Counter-controlled approach - must know count first
+num_count = int(input("How many numbers? "))
+total = 0
+
+for i in range(num_count):
+    number = int(input(f"Enter number {i + 1}: "))
+    total += number
+
+print(f"Total: {total}")
