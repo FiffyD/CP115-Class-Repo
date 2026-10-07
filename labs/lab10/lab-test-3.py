@@ -14,5 +14,5 @@ discount_amount = usage * discount
 bill = usage - discount_amount
 
 #Display output  
-print("Discount amount :RM",discount_amount)
-print("Bill to be paid :RM",bill)
+print("Discount amount : RM",discount_amount)
+print("Bill to be paid : RM",bill)
